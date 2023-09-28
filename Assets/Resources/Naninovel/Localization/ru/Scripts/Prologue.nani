@@ -1,0 +1,13 @@
+; English <en> to Russian <ru> localization document for `Prologue` naninovel script
+
+# 3aee656e
+; @print "Your name is:" waitInput:false
+
+# 6788bddd
+; @input playerName value:{playerName}
+
+# 72453555
+; playerName: My name is {playerName}
+
+# 1a1f87e7
+; Ja: Blah blah blah

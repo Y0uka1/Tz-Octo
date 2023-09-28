@@ -1,0 +1,6 @@
+@sfx Click
+@back Restaurant id:"City"
+@hideUI CityMap
+@showUI NavigationCanvas
+@LocationEnter LocationName:Restaurant
+@stop

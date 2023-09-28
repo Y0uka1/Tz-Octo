@@ -1,0 +1,13 @@
+
+@hideUI NavigationCanvas
+@char JohnDoe.Default
+JohnDoe: Let's play a mini game.
+@hidePrinter
+@StartMemory wait:true
+JohnDoe: Go buy some food.
+@hideChars
+@hidePrinter 
+@UpdateQuest questLineName:MainQuest1
+@showUI NavigationCanvas
+@stop
+

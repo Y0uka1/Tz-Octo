@@ -1,0 +1,15 @@
+
+@choice handler:ButtonArea button:Prefabs/UI/FoodPurchaseButton goto:.FoodBought
+@stop
+
+# FoodBought
+@hideUI NavigationCanvas
+@sfx ItemCollected
+Food Purchased!
+@UpdateQuest questLineName:MainQuest1
+@hideChars
+@hidePrinter
+@LocationState LocationName:Restaurant IsActive:false
+@showUI CityMap
+@stop
+

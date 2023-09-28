@@ -1,0 +1,3 @@
+; English <en> to Russian <ru> localization document for `Script` managed text document
+
+playerName: Pepega

@@ -1,0 +1,8 @@
+
+@hideUI NavigationCanvas
+{playerName}: I need to visit residential area.
+@hidePrinter 
+@UpdateQuest questLineName:MainQuest1
+@showUI NavigationCanvas
+@stop
+

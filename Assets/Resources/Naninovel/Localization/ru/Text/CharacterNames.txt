@@ -1,0 +1,2 @@
+; English <en> to Russian <ru> localization document for `CharacterNames` managed text document
+

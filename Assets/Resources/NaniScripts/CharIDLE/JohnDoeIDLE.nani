@@ -1,0 +1,39 @@
+#RelationMap
+@hideUI NavigationCanvas
+@sfx Click
+@hideUI JohnDoeIDLE
+@if JohnDoeRelation=="Default"
+    @goto .JohnDoeDefaultReplicas
+@elseif JohnDoeRelation=="Bad"
+    @goto .JohnDoeBadReplicas
+@else
+    @goto .JohnDoeGoodReplicas
+@endif
+@stop
+
+#JohnDoeDefaultReplicas
+@char JohnDoe.Default
+JohnDoe: Hi!
+@hideChars
+@hidePrinter
+@showUI JohnDoeIDLE
+@showUI NavigationCanvas
+@stop
+
+#JohnDoeBadReplicas
+@char JohnDoe.Default
+JohnDoe: Hi, bozo.
+@hideChars
+@hidePrinter
+@showUI JohnDoeIDLE
+@showUI NavigationCanvas
+@stop
+
+#JohnDoeGoodReplicas
+@char JohnDoe.Default
+JohnDoe: Hi, friend.
+@hideChars
+@hidePrinter
+@showUI JohnDoeIDLE
+@showUI NavigationCanvas
+@stop

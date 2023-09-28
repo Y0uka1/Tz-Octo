@@ -1,0 +1,13 @@
+@print "Your name is:" waitInput:false
+@input playerName value:Pepega
+@stop
+playerName: My name is {playerName}
+@back ResidentialArea id:City
+@bgm DefaultBGM
+@char JaneDoe.Default
+JaneDoe: Blah blah blah
+@StartQuest questLineName:MainQuest1
+@hideChars
+@hidePrinter 
+@showUI NavigationCanvas
+@stop

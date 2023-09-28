@@ -1,0 +1,13 @@
+fileFormatVersion: 2
+guid: 7998eeba495b4e66aa01f5dcfbc8d605
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - questLinesDatabase: {fileID: 11400000, guid: 86377cef4f6a372438618b263d3f522c,
+      type: 2}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

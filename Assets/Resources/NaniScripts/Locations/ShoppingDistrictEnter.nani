@@ -1,0 +1,8 @@
+@sfx Click
+@back ShoppingDistrict id:"City"
+@hideUI CityMap
+@showUI NavigationCanvas
+@LocationEnter LocationName:ShoppingDistrict
+@showUI JohnDoeIDLE
+@stop
+

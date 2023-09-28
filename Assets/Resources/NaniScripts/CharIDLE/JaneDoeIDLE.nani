@@ -1,0 +1,39 @@
+# RelationMap
+@hideUI NavigationCanvas
+@sfx Click
+@hideUI JaneDoeIDLE
+@if JaneDoeRelation=="Default"
+@goto .JaneDoeDefaultReplicas
+@elseif JaneDoeRelation=="Bad"
+@goto .JaneDoeBadReplicas
+@else
+@goto .JaneDoeGoodReplicas
+@endif
+@stop
+
+# JaneDoeDefaultReplicas
+@char JaneDoe.Default
+JaneDoe: Sup
+@hideChars
+@hidePrinter 
+@showUI JaneDoeIDLE
+@showUI NavigationCanvas
+@stop
+
+# JaneDoeBadReplicas
+@char JaneDoe.Default
+JaneDoe: Sup, bozo.
+@hideChars
+@hidePrinter
+@showUI JaneDoeIDLE
+@showUI NavigationCanvas
+@stop
+
+# JaneDoeGoodReplicas
+@char JaneDoe.Default
+JaneDoe: Sup, friend.
+@hideChars
+@hidePrinter
+@showUI JaneDoeIDLE
+@showUI NavigationCanvas
+@stop

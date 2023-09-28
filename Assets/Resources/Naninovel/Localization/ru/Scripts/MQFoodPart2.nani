@@ -1,0 +1,7 @@
+; English <en> to Russian <ru> localization document for `MQFoodPart2` naninovel script
+
+# 6429e4a3
+; @choice handler:ButtonArea button:Prefabs/UI/FoodPurchaseButton goto:.FoodBought
+
+# 3b5ed6c0
+; Food Purchased!

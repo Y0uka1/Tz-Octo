@@ -1,0 +1,7 @@
+@sfx Click
+@back ResidentialArea id:City
+@hideUI CityMap
+@showUI NavigationCanvas
+@LocationEnter locationName:ResidentialArea
+@showUI JaneDoeIDLE
+@stop

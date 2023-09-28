@@ -1,0 +1,45 @@
+
+@hideUI NavigationCanvas
+@char JohnDoe.Default
+JohnDoe: Give me food.
+@char JaneDoe.Default
+JaneDoe: No, give me food.
+@choice "Give food to JaneDoe" goto:.GiveToJane 
+@choice "Give food to JaneDoe" goto:.GiveToJohn
+@choice "Keep it yourself" goto:.KeepIt
+@hidePrinter
+@stop
+
+#GiveToJane
+@set JaneDoeRelation="Good"
+@set JohnDoeRelation="Bad"
+JaneDoe: Thank you
+JohnDoe: Bruh
+@hideChars
+@hidePrinter
+@UpdateQuest questLineName:MainQuest1
+@showUI NavigationCanvas
+@stop
+
+#GiveToJohn
+@set JaneDoeRelation="Bad"
+@set JohnDoeRelation="Good"
+JohnDoe: Thank you
+JaneDoe: Bruh
+@hideChars
+@hidePrinter
+@UpdateQuest questLineName:MainQuest1
+@showUI NavigationCanvas
+@stop
+
+#KeepIt
+@set JaneDoeRelation="Bad"
+@set JohnDoeRelation="Bad"
+JohnDoe: Bruh
+JaneDoe: Bruh
+@hideChars
+@hidePrinter
+@UpdateQuest questLineName:MainQuest1
+@showUI NavigationCanvas
+@stop
+
